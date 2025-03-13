@@ -12,52 +12,47 @@ const config = {
     "metadataToShow": [
       {
         "key": "pid",
-        "label": "Pid",
+        "label": "Codigo",
         "type": "text"
       },
       {
         "key": "label",
-        "label": "Label",
+        "label": "Titulo",
         "type": "text"
       },
       {
         "key": "creator",
-        "label": "Creator",
+        "label": "Autor",
         "type": "text"
       },
       {
         "key": "date",
-        "label": "Date",
+        "label": "Fecha",
         "type": "text"
       },
       {
         "key": "description",
-        "label": "Description",
+        "label": "Descripción",
         "type": "text"
       },
       {
         "key": "subject",
-        "label": "Subject",
+        "label": "Tema",
         "type": "text"
       },
       {
         "key": "source",
-        "label": "Source",
+        "label": "Fuente",
         "type": "text"
       },
-      {
-        "key": "type",
-        "label": "Type",
-        "type": "text"
-      },
-      {
+            {
         "key": "format",
-        "label": "Format",
+        "label": "Formato",
         "type": "text"
       },
       {
         "key": "language",
-        "label": "Language",
+        "label": "Idioma",
         "type": "text"
       },
       {

@@ -3,5 +3,6 @@ name: home
 layout: home
 ---
 
-# Introducción de Prueba
+# Exposición de Imágenes Patrimoniales Digitalizadas
 
+Sumérgete en la riqueza cultural y histórica de nuestra región a través de esta exposición única de imágenes patrimoniales digitalizadas. Bajo el innovador programa de laboratorio abierto al público, hemos recopilado y restaurado una colección impresionante de fotografías, documentos y artefactos que narran la evolución de nuestra comunidad. Esta iniciativa no solo preserva nuestro legado, sino que también invita a todos a explorar, aprender y contribuir a la conservación de nuestra historia. ¡Te esperamos para descubrir juntos el pasado y construir el futuro!
