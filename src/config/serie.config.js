@@ -7,8 +7,10 @@ const config = {
   "subtitle": "Un sistema para mini colecciones digitales",
   "credits": "Por Adolfo Marinello",
   "copyright": "Laboratorio de Humanidades Digitales UC, \"2025",
+  
   "pages": {
     "iiifViewer": true,
+    "banner": "C:\Users\BibliotecasUC\Documents\GitHub\seriemini-lpdhd\data\raw_images\PhilipsGalle.jpg",
     "metadataToShow": [
       {
         "key": "pid",
