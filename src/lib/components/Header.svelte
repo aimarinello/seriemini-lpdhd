@@ -6,10 +6,10 @@
   const backgroundImage = serieConfig.banner !== undefined ? (/(^http)/.test(serieConfig.banner) ? serieConfig.banner : `${base}/${serieConfig.banner}`) : undefined;
 </script>
 
-<header class="main-header" style={`background-image: ${ backgroundImage !== undefined ? `url(${backgroundImage})` : "none"};background-color: var(--color, #f3a00f);`}>
+<header class="main-header"  style={`background-image: ${ backgroundImage !== undefined ? `url(${backgroundImage})` : "none"};` }>
   <div>
-    <h1 class="main-title"  style="color:red;" id="main-title"><a href={base}>{serieConfig.title}</a></h1>
-    <span class="main-subtitle">{serieConfig.subtitle}</span>
+    <h1 class="main-title" id="main-title" ><a href={base}>{serieConfig.title}</a></h1>
+    <span class="main-subtitle" style="color: white;" >{serieConfig.subtitle}</span>
   </div>
   
   <MainMenu />
@@ -18,7 +18,8 @@
 <style>
   a {
     text-decoration: none;
-    color: var(--accent2);
+    color: rgb(255, 255, 255);
+    
   }
 
   .main-title {
@@ -26,6 +27,7 @@
     font-size: 5em;
     padding: 0;
     margin: 0;
+    
   }
 
   .main-header {
@@ -33,7 +35,7 @@
     padding: 1em;
     justify-content: space-around;
     align-items: end;
-    background: var(--accent1);
+    background: rgb(4, 4, 112);
     border: solid 1px var(--accent1);
     min-height: 200px;
     flex-direction: row;
