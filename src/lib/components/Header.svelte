@@ -6,7 +6,7 @@
   const backgroundImage = serieConfig.banner !== undefined ? (/(^http)/.test(serieConfig.banner) ? serieConfig.banner : `${base}/${serieConfig.banner}`) : undefined;
 </script>
 
-<header class="main-header" style={`background-image: ${ backgroundImage !== undefined ? `url(${backgroundImage})` : "none"};`}>
+<header class="main-header" style={`background-image: ${ backgroundImage !== undefined ? `url(${backgroundImage})` : "none"};background-color: var(--color, #cda);`}>
   <div>
     <h1 class="main-title" id="main-title"><a href={base}>{serieConfig.title}</a></h1>
     <span class="main-subtitle">{serieConfig.subtitle}</span>
