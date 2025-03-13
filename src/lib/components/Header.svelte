@@ -8,7 +8,7 @@
 
 <header class="main-header" style={`background-image: ${ backgroundImage !== undefined ? `url(${backgroundImage})` : "none"};background-color: var(--color, #f3a00f);`}>
   <div>
-    <h1 class="main-title"  style="color:red" id="main-title"><a href={base}>{serieConfig.title}</a></h1>
+    <h1 class="main-title"  style="color:red;" id="main-title"><a href={base}>{serieConfig.title}</a></h1>
     <span class="main-subtitle">{serieConfig.subtitle}</span>
   </div>
   
