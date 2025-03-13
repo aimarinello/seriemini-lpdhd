@@ -3,7 +3,7 @@ const config = {
   "localPort": "5173",
   "base": "https://aimarinello.github.io",
   "baseurl": "/seriemini-lpdhd",
-  "title": "Laboratorio abierto rojo PDHD",
+  "title": "Laboratorio abierto PDHD",
   "subtitle": "Un sistema para mini colecciones digitales",
   "credits": "Por Adolfo Marinello",
   "copyright": "Laboratorio de Humanidades Digitales UC, \"2025",
