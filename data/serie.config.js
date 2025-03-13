@@ -1,38 +1,82 @@
 const config = {
   "lang": "es",
   "localPort": "5173",
-  "base": "https://srsergiorodriguez.github.io",
-  "baseurl": "/serie-mini",
-  "title": "Serie Mini",
+  "base": "https://aimarinello.github.io",
+  "baseurl": "/seriemini-lpdhd",
+  "title": "Colección laboratorio abierto PDHD",
   "subtitle": "Un sistema para mini colecciones digitales",
-  "credits": "Por Sergio Rodríguez Gómez",
-  "copyright": "Todos los derechos reservados, 2024",
-  "logos": [
-    {img: "logos/logo.png", link: "https://github.com/srsergiorodriguez/serie-mini"}
-  ],
+  "credits": "Por Adolfo Marinello",
+  "copyright": "Laboratorio de Humanidades Digitales UC, \"2025",
   "pages": {
     "iiifViewer": true,
     "metadataToShow": [
       {
-        "key": "label",
-        "label": "Nombre",
+        "key": "pid",
+        "label": "Codigo",
         "type": "text"
       },
       {
-        "key": "autor",
+        "key": "label",
+        "label": "Titulo",
+        "type": "text"
+      },
+      {
+        "key": "creator",
         "label": "Autor",
         "type": "text"
       },
       {
-        "key": "fecha",
+        "key": "date",
         "label": "Fecha",
+        "type": "text"
+      },
+      {
+        "key": "description",
+        "label": "Descripción",
+        "type": "text"
+      },
+      {
+        "key": "subject",
+        "label": "Tema",
+        "type": "text"
+      },
+      {
+        "key": "source",
+        "label": "Fuente",
+        "type": "text"
+      },
+            {
+        "key": "format",
+        "label": "Formato",
+        "type": "text"
+      },
+      {
+        "key": "language",
+        "label": "Idioma",
+        "type": "text"
+      },
+      {
+        "key": "identifier",
+        "label": "Identifier",
+        "type": "text"
+      },
+      {
+        "key": "rights",
+        "label": "Rights",
+        "type": "text"
+      },
+      {
+        "key": "rightsstatement",
+        "label": "Rightsstatement",
         "type": "text"
       }
     ],
     "metadataToIndex": [
+      "pid",
       "label",
-      "autor",
-      "fecha"
+      "creator",
+      "date",
+      "description"
     ]
   }
 };

@@ -3,7 +3,7 @@ name: home
 layout: home
 ---
 
-# Introducción
+# Introducción de Prueba
 
 Esta es una plantilla para la creación de colecciones culturales digitales basada en Svelte.
 

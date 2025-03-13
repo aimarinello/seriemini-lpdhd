@@ -1,38 +1,87 @@
 const config = {
   "lang": "es",
   "localPort": "5173",
-  "base": "https://srsergiorodriguez.github.io",
-  "baseurl": "/serie-mini",
-  "title": "Serie Mini",
+  "base": "https://aimarinello.github.io",
+  "baseurl": "/seriemini-lpdhd",
+  "title": "Colección laboratorio abierto PDHD",
   "subtitle": "Un sistema para mini colecciones digitales",
-  "credits": "Por Sergio Rodríguez Gómez",
-  "copyright": "Todos los derechos reservados, 2024",
-  "logos": [
-    {img: "logos/logo.png", link: "https://github.com/srsergiorodriguez/serie-mini"}
-  ],
+  "credits": "Por Adolfo Marinello",
+  "copyright": "Laboratorio de Humanidades Digitales UC, \"2025",
   "pages": {
     "iiifViewer": true,
     "metadataToShow": [
       {
+        "key": "pid",
+        "label": "Pid",
+        "type": "text"
+      },
+      {
         "key": "label",
-        "label": "Nombre",
+        "label": "Label",
         "type": "text"
       },
       {
-        "key": "autor",
-        "label": "Autor",
+        "key": "creator",
+        "label": "Creator",
         "type": "text"
       },
       {
-        "key": "fecha",
-        "label": "Fecha",
+        "key": "date",
+        "label": "Date",
+        "type": "text"
+      },
+      {
+        "key": "description",
+        "label": "Description",
+        "type": "text"
+      },
+      {
+        "key": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "key": "source",
+        "label": "Source",
+        "type": "text"
+      },
+      {
+        "key": "type",
+        "label": "Type",
+        "type": "text"
+      },
+      {
+        "key": "format",
+        "label": "Format",
+        "type": "text"
+      },
+      {
+        "key": "language",
+        "label": "Language",
+        "type": "text"
+      },
+      {
+        "key": "identifier",
+        "label": "Identifier",
+        "type": "text"
+      },
+      {
+        "key": "rights",
+        "label": "Rights",
+        "type": "text"
+      },
+      {
+        "key": "rightsstatement",
+        "label": "Rightsstatement",
         "type": "text"
       }
     ],
     "metadataToIndex": [
+      "pid",
       "label",
-      "autor",
-      "fecha"
+      "creator",
+      "date",
+      "description"
     ]
   }
 };
