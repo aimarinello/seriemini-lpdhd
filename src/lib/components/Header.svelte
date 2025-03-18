@@ -24,10 +24,10 @@
 
   .main-title {
     max-width: 600px;
-    font-size: 5em;
+    font-size: 3em;
     padding: 0;
     margin: 0;
-    
+   
   }
 
   .main-header {
@@ -35,7 +35,7 @@
     padding: 1em;
     justify-content: space-around;
     align-items: end;
-    background: rgb(4, 4, 112);
+    background: rgb(71, 83, 190);
     border: solid 1px var(--accent1);
     min-height: 200px;
     flex-direction: row;

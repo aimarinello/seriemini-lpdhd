@@ -23,6 +23,6 @@
 
   .menu-list li {
     list-style-type: none;
-    font-size: 1.2em;
-  }
+    font-size: 1 em;
+     }
 </style>
