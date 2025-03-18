@@ -28,12 +28,18 @@ INCORRECTO: REVISA EL PID | INCORRECT: CHECK THE PID OF THE IMAGE
   .preview-item {
     padding: 2em;
     border: 1px solid rgba(0,0,0,0.2);
-    max-width: 500px;
+    max-width: 200px;
     margin: auto;
   }
 
   img {
-    width: 100%;
+    width: 40%;
+    display: block; /* Asegura que la imagen ocupe toda la línea */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin-bottom: 10%;
+    
   }
+
+ 
   
 </style>
