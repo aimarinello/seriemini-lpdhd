@@ -7,10 +7,24 @@
 </script>
 
 <header class="main-header"  style={`background-image: ${ backgroundImage !== undefined ? `url(${backgroundImage})` : "none"};` }>
+  
+  <div class="logos-container">  <!-- Espacio para logos improtados desde serieConfig.logos -->
+    {#if serieConfig.logos !== undefined}
+      {#each serieConfig.logos as {img, link}}
+        <div class="logo">
+          <a href={link} target="_blank">
+            <img src={/(^http)/.test(img) ? img : `${base}/${img}`} alt="logo"/>
+          </a>
+        </div>
+      {/each}
+    {/if}
+  </div>
+   
   <div>
     <h1 class="main-title" id="main-title" ><a href={base}>{serieConfig.title}</a></h1>
-    <span class="main-subtitle" style="color: white;" >{serieConfig.subtitle}</span>
+    <span class="main-subtitle" >{serieConfig.subtitle}</span>
   </div>
+  
   
   <MainMenu />
 </header>
@@ -18,8 +32,12 @@
 <style>
   a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 255, 253);
     
+  }
+  .main-subtitle {
+    color: rgb(255, 255, 255); 
+   
   }
 
   .main-title {
@@ -34,11 +52,24 @@
     display: flex;
     padding: 1em;
     justify-content: space-around;
-    align-items: end;
-    background: rgb(71, 83, 190);
+    align-items: center;
+    background: rgb(73, 71, 190);
     border: solid 1px var(--accent1);
     min-height: 200px;
     flex-direction: row;
+  }
+  /* Control del estilo del logo superior*/
+  .logos-container {
+    display: flex;
+    gap: 0.5em;
+  }
+
+  .logo {
+    max-width: 300px;
+  }
+
+  .logo img {
+    width: 100%;
   }
 
   @media screen and (max-width: 800px) {

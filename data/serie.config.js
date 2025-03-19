@@ -7,8 +7,10 @@ const config = {
   "subtitle": "Un sistema para mini colecciones digitales",
   "credits": "Por Adolfo Marinello",
   "copyright": "Laboratorio de Humanidades Digitales UC, \"2025",
-  "banner": "C:\Users\BibliotecasUC\Documents\GitHub\seriemini-lpdhd\data\raw_images\PhilipsGalle.jpg",
-  
+  "banner": "https://images.pexels.com/photos/10276253/pexels-photo-10276253.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+  "logos" : [
+    { img: "https://centropatrimonio.uc.cl/wp-content/uploads/2023/05/logo-grisazul.png",link: "https://centropatrimonio.uc.cl/" },
+      ],
   "pages": {
     "iiifViewer": true,
     
