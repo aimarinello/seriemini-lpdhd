@@ -19,10 +19,13 @@
     justify-content: space-around;
     padding: 0;
     margin: 0;
+    border: solid 1px rgb(73, 71, 190);
+        
   }
 
   .menu-list li {
     list-style-type: none;
     font-size: 1 em;
+    
      }
 </style>

@@ -26,15 +26,16 @@
   </div>
   
   
-  <MainMenu />
-</header>
 
+</header>
+<MainMenu />
 <style>
   a {
     text-decoration: none;
     color: rgb(255, 255, 253);
     
   }
+  
   .main-subtitle {
     color: rgb(255, 255, 255); 
    
@@ -52,8 +53,8 @@
     display: flex;
     padding: 1em;
     justify-content: space-around;
-    align-items: center;
     background: rgb(73, 71, 190);
+    align-items: center;
     border: solid 1px var(--accent1);
     min-height: 200px;
     flex-direction: row;
