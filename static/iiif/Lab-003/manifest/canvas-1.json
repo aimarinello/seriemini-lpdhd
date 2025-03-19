@@ -1,0 +1,30 @@
+{
+  "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-003/manifest/canvas-1.json",
+  "items": [
+    {
+      "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-003/manifest/page-1.json",
+      "items": [
+        {
+          "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-003/manifest/image-1.json",
+          "items": [],
+          "type": "Annotation",
+          "@context": "http://www.w3.org/ns/anno.jsonld",
+          "motivation": "painting",
+          "target": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-003/manifest/canvas-1.json",
+          "body": {
+            "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-003/1/full/max/0/default.jpg",
+            "type": "Image",
+            "format": "image/jpeg",
+            "height": 3016,
+            "width": 2146
+          }
+        }
+      ],
+      "type": "AnnotationPage"
+    }
+  ],
+  "type": "Canvas",
+  "width": 2146,
+  "height": 3016,
+  "annotations": []
+}

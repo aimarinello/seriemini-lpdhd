@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<image xmlns="http://www.vips.ecs.soton.ac.uk//dzsave" date="2025-03-19T14:24:08.041436-03" version="8.15.3">
+  <properties>
+    <property>
+      <name>width</name>
+      <value type="gint">3916</value>
+    </property>
+    <property>
+      <name>height</name>
+      <value type="gint">2778</value>
+    </property>
+    <property>
+      <name>bands</name>
+      <value type="gint">3</value>
+    </property>
+    <property>
+      <name>xoffset</name>
+      <value type="gint">0</value>
+    </property>
+    <property>
+      <name>yoffset</name>
+      <value type="gint">0</value>
+    </property>
+    <property>
+      <name>xres</name>
+      <value type="gdouble">23.622047244094489</value>
+    </property>
+    <property>
+      <name>yres</name>
+      <value type="gdouble">23.622047244094489</value>
+    </property>
+    <property>
+      <name>vips-loader</name>
+      <value type="VipsRefString">jpegload</value>
+    </property>
+    <property>
+      <name>jpeg-multiscan</name>
+      <value type="gint">1</value>
+    </property>
+    <property>
+      <name>interlaced</name>
+      <value type="gint">1</value>
+    </property>
+    <property>
+      <name>jpeg-chroma-subsample</name>
+      <value type="VipsRefString">4:4:4</value>
+    </property>
+    <property>
+      <name>resolution-unit</name>
+      <value type="VipsRefString">in</value>
+    </property>
+    <property>
+      <name>exif-ifd0-NewSubfileType</name>
+      <value type="VipsRefString">0 (0, Long, 1 components, 4 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-DocumentName</name>
+      <value type="VipsRefString">DN0P61201159        0000000025000000000700000.----!--1100 (DN0P61201159        0000000025000000000700000.----!--1100, ASCII, 58 components, 58 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-ImageDescription</name>
+      <value type="VipsRefString">                                                                                (                                                                               , ASCII, 80 components, 80 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-Make</name>
+      <value type="VipsRefString">Kodak Alaris Inc. (Kodak Alaris Inc., ASCII, 18 components, 18 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-Model</name>
+      <value type="VipsRefString">KODAK Scanner: S2050 (KODAK Scanner: S2050, ASCII, 21 components, 21 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-Orientation</name>
+      <value type="VipsRefString">1 (Top-left, Short, 1 components, 2 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-XResolution</name>
+      <value type="VipsRefString">600/1 (600, Rational, 1 components, 8 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-YResolution</name>
+      <value type="VipsRefString">600/1 (600, Rational, 1 components, 8 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-ResolutionUnit</name>
+      <value type="VipsRefString">2 (Inch, Short, 1 components, 2 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-Software</name>
+      <value type="VipsRefString">GIMP 2.10.38 (GIMP 2.10.38, ASCII, 13 components, 13 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-DateTime</name>
+      <value type="VipsRefString">2025:03:19 14:02:59 (2025:03:19 14:02:59, ASCII, 20 components, 20 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd0-Artist</name>
+      <value type="VipsRefString">sysadmin (sysadmin, ASCII, 9 components, 9 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd2-UserComment</name>
+      <value type="VipsRefString">                                                                                (                                                                               , Undefined, 87 components, 87 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd2-ColorSpace</name>
+      <value type="VipsRefString">1 (sRGB, Short, 1 components, 2 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd2-ExifVersion</name>
+      <value type="VipsRefString">Exif Version 2.1 (Exif Version 2.1, Undefined, 4 components, 4 bytes)</value>
+    </property>
+    <property>
+      <name>exif-ifd2-FlashpixVersion</name>
+      <value type="VipsRefString">FlashPix Version 1.0 (FlashPix Version 1.0, Undefined, 4 components, 4 bytes)</value>
+    </property>
+    <property>
+      <name>orientation</name>
+      <value type="gint">1</value>
+    </property>
+    <property>
+      <name>vips-sequential</name>
+      <value type="gint">1</value>
+    </property>
+  </properties>
+</image>

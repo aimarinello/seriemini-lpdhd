@@ -27,12 +27,7 @@ const config = {
       },
       {
         "key": "creator",
-        "label": "Autor",
-        "type": "text"
-      },
-      {
-        "key": "date",
-        "label": "Fecha",
+        "label": "Colaborador",
         "type": "text"
       },
       {
@@ -41,40 +36,10 @@ const config = {
         "type": "text"
       },
       {
-        "key": "subject",
-        "label": "Tema",
+        "key": "extension",
+        "label": "Contenido",
         "type": "text"
       },
-      {
-        "key": "source",
-        "label": "Fuente",
-        "type": "text"
-      },
-            {
-        "key": "format",
-        "label": "Formato",
-        "type": "text"
-      },
-      {
-        "key": "language",
-        "label": "Idioma",
-        "type": "text"
-      },
-      {
-        "key": "identifier",
-        "label": "Identifier",
-        "type": "text"
-      },
-      {
-        "key": "rights",
-        "label": "Rights",
-        "type": "text"
-      },
-      {
-        "key": "rightsstatement",
-        "label": "Rightsstatement",
-        "type": "text"
-      }
     ],
     "metadataToIndex": [
       "pid",

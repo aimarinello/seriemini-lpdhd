@@ -1,0 +1,102 @@
+{
+  "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "Digitalización de Archivos "
+    ]
+  },
+  "items": [
+    {
+      "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/canvas-0.json",
+              "body": {
+                "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2187,
+                "width": 3226
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 3226,
+      "height": 2187,
+      "annotations": []
+    },
+    {
+      "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/canvas-1.json",
+      "items": [
+        {
+          "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/page-1.json",
+          "items": [
+            {
+              "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/image-1.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/canvas-1.json",
+              "body": {
+                "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2193,
+                "width": 3421
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 3421,
+      "height": 2193,
+      "annotations": []
+    },
+    {
+      "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/canvas-2.json",
+      "items": [
+        {
+          "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/page-2.json",
+          "items": [
+            {
+              "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/image-2.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/manifest/canvas-2.json",
+              "body": {
+                "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-004/2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 3144,
+                "width": 2151
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 2151,
+      "height": 3144,
+      "annotations": []
+    }
+  ]
+}

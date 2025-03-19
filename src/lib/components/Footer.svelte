@@ -30,7 +30,7 @@
     padding: 1em;
     justify-content: space-around;
     align-items: center;
-    background: rgb(73, 71, 190);
+    background: rgb(180, 139, 5);
     border: solid 1px var(--accent1);
     flex-direction: row;
   }

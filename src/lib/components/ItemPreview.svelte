@@ -33,7 +33,7 @@ INCORRECTO: REVISA EL PID | INCORRECT: CHECK THE PID OF THE IMAGE
   }
 
   img {
-    width: 40%;
+    width: 50%;
     display: block; /* Asegura que la imagen ocupe toda la línea */
     margin: 0 auto; /* Centra la imagen horizontalmente */
     margin-bottom: 10%;

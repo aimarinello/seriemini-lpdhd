@@ -63,6 +63,7 @@
   .logos-container {
     display: flex;
     gap: 0.5em;
+    background-color: antiquewhite;
   }
 
   .logo {

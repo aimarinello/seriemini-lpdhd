@@ -1,0 +1,102 @@
+{
+  "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/manifest.json",
+  "type": "Manifest",
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "label": {
+    "en": [
+      "Hacia un archivo de la noviolencia en Chile. Digitalización de documentos del Servicio Paz y Justicia y el Movimiento Contra la Tortura Sebastián Acevedo (1983-1990)"
+    ]
+  },
+  "items": [
+    {
+      "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/canvas-0.json",
+      "items": [
+        {
+          "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/page-0.json",
+          "items": [
+            {
+              "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/image-0.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/canvas-0.json",
+              "body": {
+                "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/0/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2812,
+                "width": 4243
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 4243,
+      "height": 2812,
+      "annotations": []
+    },
+    {
+      "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/canvas-1.json",
+      "items": [
+        {
+          "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/page-1.json",
+          "items": [
+            {
+              "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/image-1.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/canvas-1.json",
+              "body": {
+                "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/1/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2844,
+                "width": 4238
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 4238,
+      "height": 2844,
+      "annotations": []
+    },
+    {
+      "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/canvas-2.json",
+      "items": [
+        {
+          "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/page-2.json",
+          "items": [
+            {
+              "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/image-2.json",
+              "items": [],
+              "type": "Annotation",
+              "@context": "http://www.w3.org/ns/anno.jsonld",
+              "motivation": "painting",
+              "target": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/manifest/canvas-2.json",
+              "body": {
+                "id": "https://aimarinello.github.io/seriemini-lpdhd/iiif/Lab-001/2/full/max/0/default.jpg",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 2812,
+                "width": 4238
+              }
+            }
+          ],
+          "type": "AnnotationPage"
+        }
+      ],
+      "type": "Canvas",
+      "width": 4238,
+      "height": 2812,
+      "annotations": []
+    }
+  ]
+}
