@@ -19,7 +19,8 @@
     justify-content: space-around;
     padding: 0;
     margin: 0;
-    border: solid 1px rgb(73, 71, 190);
+    background-color: antiquewhite;
+    border: solid 1px rgb(23,63,138);
         
   }
 

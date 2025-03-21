@@ -30,9 +30,10 @@
     padding: 1em;
     justify-content: space-around;
     align-items: center;
-    background: rgb(180, 139, 5);
+    background: rgb(1,118,222);
     border: solid 1px var(--accent1);
     flex-direction: row;
+    color: rgb(0, 0, 0)
   }
 
   @media screen and (max-width: 800px) {
@@ -46,6 +47,7 @@
   .logos-container {
     display: flex;
     gap: 0.5em;
+    background-color: antiquewhite;
   }
 
   .logo {
